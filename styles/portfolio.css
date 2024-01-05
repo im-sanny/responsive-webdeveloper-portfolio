@@ -41,6 +41,7 @@ nav{
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
+    justify-content: space-between;
 }
 
 nav > ul{
@@ -92,6 +93,10 @@ nav{
  }
 
  /* main section style*/
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
 
  /* about section style */
  .about{
@@ -100,4 +105,12 @@ nav{
     border-radius: 10px;
     margin: 130px 0;
 
+ }
+
+ .about-info-container{
+    display: flex;
+    justify-content: space-around;
+ }
+ .about-info{
+    text-align: center;
  }
