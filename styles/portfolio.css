@@ -113,11 +113,11 @@ nav{
  }
 
  .about-info-container{
-    display: flex;
-    justify-content: space-around;
+ display: flex;
+ justify-content: space-around;
  }
  .about-info{
-    text-align: center;
+  text-align: center;
  }
 
 /* skill related style */
@@ -188,6 +188,7 @@ nav{
 
  .social-links a{
           margin-right: 25px;
+          margin-left: 200px ;
  }
  .contact input[type="text"], .contact input[type="email"],
  textarea{
